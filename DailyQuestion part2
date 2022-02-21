@@ -1,0 +1,27 @@
+1.JAVA is a platform independent langaugae:
+    Because it does not depends on any tyope of platform.In JAVA,programs are complied into
+ byte code and that byte code is platform-independent.
+ 2.Instance Variable:
+    It is also called global variable.Declare in the class level and out of the method.
+    It is either initialize or not initialize.
+   Local Variable:
+    Declare within the method and it is initialize at the beginning.
+ 3.Can we overload main method in JAVA:
+    Yes,We can overload the main method in JAVA but JVM only calls our overload main method , it will never call 
+  our overload main method.
+ 4.Access modifier avaliable in JAVA:
+  * Default
+  * Public
+  * Private
+  * Protected
+ 5.Call a non static main method from main JAVA:
+    If you need to call a non static member from it,simple put your main code in a class and then from the main 
+   create a new object of your newly created class.
+ 6.String is immutable in JAVA:
+   The String is immutable in JAVA .Because of security , synchronization and concurrency,caching and class loading.
+   The reason of making String final is to destroy the immutability and to not allow others to extend it.
+ 7.concat():
+    Take only one argument of string and concatenates it with another string.
+   concatenates operator '+':
+     Take any number of argument and concatenates all the string.
+    
